@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_order"
+            android:icon="@drawable/ic_shop_black_24dp"
+            android:title="My Orders" />
+        <item
+            android:id="@+id/nav_cart"
+            android:icon="@drawable/ic_shopping_cart_black_24dp"
+            android:title="My Cart" />
+        <item
+            android:id="@+id/nav_wallet"
+            android:icon="@drawable/ic_account_balance_wallet_black_24dp"
+            android:title="My Wallet" />
+
+        <item
+            android:id="@+id/nav_whatsapporder"
+            android:icon="@drawable/ic_whatsapp"
+            android:title="WhatsApp Order" />
+
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share App" />
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/ic_rate_review_black_24dp"
+                android:title="Rate App" />
+
+            <item
+                android:id="@+id/nav_contactus"
+                android:icon="@drawable/ic_contacts_black_24dp"
+                android:title="Contact Us" />
+            <item
+                android:id="@+id/nav_aboutus"
+                android:icon="@drawable/ic_aboutus_outline_black_24dp"
+                android:title="About Us" />
+            <item
+                android:id="@+id/nav_policy"
+                android:icon="@drawable/ic_lock_open_black_24dp"
+                android:title="Privacy Policy" />
+            <item
+                android:id="@+id/nav_tc"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Terms and Conditions" />
+
+        </menu>
+    </item>
+
+</menu>
